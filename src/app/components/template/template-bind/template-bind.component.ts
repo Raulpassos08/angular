@@ -9,5 +9,10 @@ import { Component } from '@angular/core';
 })
 export class TemplateBindComponent {
   public name = 'Dener Troquatte'
+  public age = 32;
+
+  public sum(val1: number, val2: number){
+    return  val1 + val2;
+  }
 }
  
